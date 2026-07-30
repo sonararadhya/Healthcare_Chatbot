@@ -2,7 +2,7 @@
 
 # 🏥 MedAI Suite
 
-**An AI-driven clinical diagnostic platform boasting 92.7% accuracy**
+**An AI-powered clinical diagnostic platform with an impressive accuracy of 92.7%**
 
 [![Python](https://img.shields.io/badge/Python-3.13-3776ab?logo=python&logoColor=white)](https://python.org)  
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)](https://react.dev)  
@@ -16,7 +16,7 @@
 
 ## 📋 Overview
 
-MedAI Suite is a state-of-the-art medical diagnostic platform that employs **TF-IDF weighted symptom matching** to accurately predict diseases based on patient symptoms across 41 conditions and 132 clinical indicators. It features mental wellness screening (PHQ-9), BMI tracking, AI-driven medical advising via Google Gemini, and the ability to export clinical reports.
+MedAI Suite represents a cutting-edge medical diagnostic platform that utilizes **TF-IDF weighted symptom matching** to accurately identify diseases based on patient-reported symptoms across 41 conditions and 132 clinical indicators. The platform includes mental wellness assessments (PHQ-9), BMI tracking, AI-driven medical advice via Google Gemini, and the capability to generate clinical reports in PDF format.
 
 > Developed as a dual-release system: a **standalone Python desktop application** and a **modern full-stack web application**.
 
@@ -26,13 +26,13 @@ MedAI Suite is a state-of-the-art medical diagnostic platform that employs **TF-
 
 | Module | Description | Technology |
 |--------|-------------|------------|
-| 🔬 **Diagnostic Engine** | TF-IDF symptom matching with IDF rarity weighting, F-beta scoring, and miss penalties | Python, pandas |
+| 🔬 **Diagnostic Engine** | TF-IDF symptom matching with IDF rarity weighting, F-beta scoring, and penalties for missed symptoms | Python, pandas |
 | 🧠 **Mental Wellness** | PHQ-9 standardized depression screening with severity mapping (0–27) | React |
-| 📊 **BMI & Nutrition** | Age-specific dietary guidelines, BMI calculator with reference charts | Recharts |
+| 📊 **BMI & Nutrition** | Age-specific dietary guidelines and a BMI calculator with reference charts | Recharts |
 | 🤖 **AI Medical Advisor** | Conversational health guidance powered by Google Gemini | Gemini API |
 | 📄 **Clinical Reports** | Export patient history as professionally formatted PDF documents | jsPDF |
 | 🚨 **Emergency Directory** | National emergency hotlines (112, 108, 104, 102, 1033) | React |
-| 📱 **Responsive Design** | Desktop sidebar transitioning to mobile bottom navigation bar | CSS Grid |
+| 📱 **Responsive Design** | Desktop sidebar that transitions to a mobile bottom navigation bar | CSS Grid |
 
 ---
 
@@ -123,7 +123,7 @@ python mainWind.py
 
 ## 🧬 Diagnostic Algorithm
 
-The engine utilizes a **TF-IDF Weighted Scoring** methodology rather than conventional machine learning classifiers:
+The engine employs a **TF-IDF Weighted Scoring** methodology instead of traditional machine learning classifiers:
 
 ### Why Not Machine Learning?
 
